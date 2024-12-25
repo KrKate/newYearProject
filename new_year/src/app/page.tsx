@@ -1,14 +1,7 @@
 export default function Home() {
   return (
     <div>
-
-
-
-
-
-      <main>
-
-                               </main>
+      <main>Happy new year!</main>
     </div>
   );
 }

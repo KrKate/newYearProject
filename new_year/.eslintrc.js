@@ -1,0 +1,12 @@
+module.exports = {
+  extends: [
+    'next/core-web-vitals',
+    'next/typescript',
+    'plugin:prettier/recommended',
+    'prettier',
+  ],
+  plugins: ['prettier'],
+  rules: {
+    'prettier/prettier': ['error', { singleQuote: true }],
+  },
+};
