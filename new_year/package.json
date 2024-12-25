@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "format:fix": "prettier . --write --color"
   },
   "dependencies": {
     "next": "15.1.2",
