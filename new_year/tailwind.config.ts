@@ -11,7 +11,8 @@ export default {
       colors: {
         customRed: '#eb0000',
         customGray: '#333333',
-        buttonNormal: '#f2d7d7'
+        buttonNormal: '#f2d7d7',
+        wrapperColor: '#F5EFF0'
       },
     },
   },
