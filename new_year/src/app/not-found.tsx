@@ -5,7 +5,9 @@ export default function NotFound() {
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
       <main className="text-center">
-        <h1 className="text-5xl font-bold text-customGray">Oops, the dish isn’t ready yet!</h1>
+        <h1 className="text-5xl font-bold text-customGray">
+          Oops, the dish isn’t ready yet!
+        </h1>
         <p className="text-lg text-customGray mt-4">
           Looks like you’ve checked in too early — this recipe is still cooking.
           Head back to the homepage to find something else delicious!

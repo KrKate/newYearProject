@@ -16,17 +16,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "My Recipe Book",
-  description: "A collection of delicious recipes",
+  title: 'My Recipe Book',
+  description: 'A collection of delicious recipes',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
- <html lang="en" className="h-full">
+    <html lang="en" className="h-full">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >

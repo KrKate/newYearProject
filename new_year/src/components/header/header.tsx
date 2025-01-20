@@ -1,24 +1,36 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Header() {
   return (
     <header className="bg-gray-100 border-b border-gray-300">
       <div className="container mx-auto flex items-center justify-between p-4">
         <Link href="/" className="text-2xl font-bold text-customRed">
-            My Recipe Book
+          My Recipe Book
         </Link>
 
         <nav className="hidden md:flex space-x-7">
-          <Link href="/" className="text-xl text-customGray hover:text-gray-800 active:text-customRed">
+          <Link
+            href="/"
+            className="text-xl text-customGray hover:text-gray-800 active:text-customRed"
+          >
             Home
           </Link>
-          <Link href="/recipes" className="text-xl text-customGray hover:text-gray-800 active:text-customRed">
+          <Link
+            href="/recipes"
+            className="text-xl text-customGray hover:text-gray-800 active:text-customRed"
+          >
             Recipes
           </Link>
-          <Link href="/about" className="text-xl text-customGray hover:text-gray-800 active:text-customRed">
+          <Link
+            href="/about"
+            className="text-xl text-customGray hover:text-gray-800 active:text-customRed"
+          >
             About
           </Link>
-          <Link href="/contact" className="text-xl text-customGray hover:text-gray-800 active:text-customRed">
+          <Link
+            href="/contact"
+            className="text-xl text-customGray hover:text-gray-800 active:text-customRed"
+          >
             Contact
           </Link>
         </nav>
